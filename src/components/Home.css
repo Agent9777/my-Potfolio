@@ -1,0 +1,93 @@
+.home-container {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #a855f7; /* purple */
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  color: #d1d5db;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.home-tagline {
+  max-width: 600px;
+  color: #9ca3af;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn.primary {
+  background-color: #a855f7;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #9333ea;
+}
+
+.btn.secondary {
+  border: 2px solid #a855f7;
+  color: white;
+}
+
+.btn.secondary:hover {
+  background-color: #a855f7;
+}
+
+.btn.ghost {
+  border: 2px solid #ccc;
+  color: white;
+}
+
+.btn.ghost:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.home-socials {
+  display: flex;
+  gap: 20px;
+  font-size: 1.8rem;
+}
+
+.home-socials a {
+  color: white;
+  transition: 0.3s;
+}
+
+.home-socials a:hover {
+  color: #a855f7;
+}
