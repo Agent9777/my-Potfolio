@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa';
+import resume from './resume.pdf';
 
 
 const Home = () => {
@@ -26,6 +27,15 @@ const Home = () => {
         <Link to="/Skills" className="btn ghost">Skills</Link>
 
         <Link to="/contacts" className="btn ghost">Contact</Link>
+        <a 
+          href={resume}
+          className="btn ghost"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resume
+        </a>
+
 
       </div>
 
@@ -35,6 +45,9 @@ const Home = () => {
         </a>
         <a href="https://www.linkedin.com/in/shourya-deep/" target="_blank" rel="noreferrer">
           <FaLinkedin />
+        </a>
+        <a href={resume} target="_blank" rel="noreferrer">
+          <FaFileAlt />
         </a>
       </div>
     </section>
